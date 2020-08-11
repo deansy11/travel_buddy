@@ -15,10 +15,9 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-// app/javascript/packs/application.js
-
-import Vue from 'vue'
-import App from '../components/app.vue'
+// import Vue from 'vue'
+import Vue from 'vue/dist/vue.esm'
+import App from '../pages/home.vue'
 
 document.addEventListener('DOMContentLoaded', () => {
   document.body.appendChild(document.createElement('app'))
